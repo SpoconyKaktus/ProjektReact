@@ -1,0 +1,61 @@
+*{
+    font-family: 'Verdana';
+}
+body{
+    background: linear-gradient(180deg, lightseagreen, rgb(0, 112, 112));
+    min-height: 100vh;
+    text-align: center;
+}
+ul{
+    width: 40%;
+    margin: 0 auto;
+    padding: 0;
+}
+.form{
+    background-color: lightseagreen;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 0 auto;
+    padding: 10px;
+    border: solid 2px black;
+    border-radius: 20px;
+    gap: 5px;
+}
+input, .form>button{
+    width: 100px;
+    margin: 0 auto;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+main>div{
+    width: 50%;
+}
+li{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    margin: 5px 0;
+    background-color: darkblue;
+    border: solid black 1px;
+    border-radius: 10px;
+}
+li > button, .link{
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    width: 50%;
+    background-color: white;
+    margin: 5px auto;
+    border: solid 1px black;
+}
+li > button:hover, .link:hover{
+    background-color: rgb(200, 200, 200);
+    cursor: pointer;
+}
+.niedost{
+    filter: brightness(50%);
+}

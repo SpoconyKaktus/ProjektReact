@@ -1,0 +1,37 @@
+{
+  "cars": [
+    {
+      "marka": "opel",
+      "model": "astra",
+      "rocznik": 2000,
+      "cena": 50,
+      "dostepnosc": true,
+      "id": "4u3hnRL2C0w",
+      "data_wypozyczenia": "2026-04-25",
+      "data_zwrotu": "2026-05-25",
+      "wynajmujacy": {
+        "imie": "Imie",
+        "email": "imie@mail.com"
+      }
+    },
+    {
+      "marka": "fiat",
+      "model": "panda",
+      "rocznik": 2010,
+      "cena": 40,
+      "dostepnosc": true,
+      "id": "x4p47Q-UXfk",
+      "data_wypozyczenia": "",
+      "data_zwrotu": ""
+    },
+    {
+      "marka": "ford",
+      "model": "fiesta",
+      "rocznik": 2020,
+      "cena": 60,
+      "dostepnosc": true,
+      "id": "_0hy2m2BGGY"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
